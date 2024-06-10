@@ -15,8 +15,8 @@ body {
   background: rgb(29, 26, 57);
   background: linear-gradient(180deg, #1d1016 0%, #4f2b38 100%);
   padding: 30px;
-  width: vw;
-  height: 70px;
+  width: 100vw;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,4 +45,13 @@ body {
 .links ul li a:hover {
   transform: scale(1.2);
   color: #a51a41;
+}
+
+.links i {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
 }
